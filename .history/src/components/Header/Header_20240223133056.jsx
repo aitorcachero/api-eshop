@@ -15,7 +15,7 @@ import {
   PlayCircleIcon,
 } from '@heroicons/react/20/solid';
 import logo from '../../assets/logo.png';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import cartImage from '../../assets/cart.svg';
 import useShop from '../../hooks/useShop';
 
@@ -39,12 +39,10 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link to="/">
-            <div href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src={`${logo}`} alt="" />
-            </div>
-          </Link>
+          <a href="#" className="-m-1.5 p-1.5">
+            <span className="sr-only">Your Company</span>
+            <img className="h-8 w-auto" src={`${logo}`} alt="" />
+          </a>
         </div>
         <div className="flex lg:hidden">
           <button

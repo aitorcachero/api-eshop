@@ -15,7 +15,7 @@ import {
   PlayCircleIcon,
 } from '@heroicons/react/20/solid';
 import logo from '../../assets/logo.png';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import cartImage from '../../assets/cart.svg';
 import useShop from '../../hooks/useShop';
 
