@@ -127,7 +127,7 @@ export default function ProductsPage() {
   return filteredProducts ? (
     <div className="h-screen  flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center lg:justify-start lg:items-center h-full mt-72 lg:w-3/4  lg:flex-row">
-        <aside className="w-1/4 mt-48 lg:h-full lg:mt-6 flex flex-col items-center justify-start lg:fixed lg:items-start">
+        <aside className="w-1/4 mt-48 lg:min-h-full lg:mt-6 flex flex-col items-center justify-start lg:fixed lg:items-start">
           <div className="w-92 lg:w-2/4 mt-48 lg:mt-0 ">
             <input
               type="text"
